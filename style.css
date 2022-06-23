@@ -1,0 +1,309 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-size: 15pt;
+}
+
+/* UTILITY CLASSES*/
+.mgn-btm-medium {
+  margin-bottom: 3rem;
+}
+.container {
+  max-width: 100%;
+}
+
+
+.intro {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem;
+  background-color: #0A0C22;
+  border: 1px solid white;
+}
+
+.nav__btn {
+border: 1px solid rosybrown;
+}
+
+#navbtn {
+  padding: 0.5em 1.5em;
+  background-color: #52B7DD;
+  border: none;
+ /* margin-top: 1rem; */
+  border: 1px solid white;
+}
+
+#navbtn i {
+  font-size: 2em;
+}
+
+.line {
+  width: 100%;
+  height: 2px;
+  background-color: #EAEAEA;
+  margin-top: 1rem;
+}
+
+/* Log and company name*/
+.logo-div {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  color: #F1F1F1;
+  margin-top: 1rem;
+}
+
+.logo-div i {
+  margin-right: 1rem;
+  font-size: 2em;
+  color: #06B1FF;
+}
+
+
+/*Navigation section*/
+.nav__div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 1rem;
+  width: 85vw;
+  height: 15vh;
+  padding: 0 1rem;
+  margin-top: 1rem;
+  
+} 
+.nav__div a {
+  text-decoration: none;
+  color: #AAADCE;
+  font-size: 1.7rem;
+}
+
+
+/*Contact section*/
+.contact {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.con__icon i {
+  height: 2em;
+  width: 2em;
+  padding: 0.5rem;
+  border-radius: 50%;
+  font-size: 1.5em;
+  color: white;
+  background-color: #00D3F5;
+}
+
+.foot-note {
+  font-size: 1rem;
+  font-style: italic;
+  color: #F1F1F1;
+  margin-top: 3rem;
+}
+
+/* Some blank space */
+.blank {
+  width: 100%;
+  height: 2rem;
+}
+
+/* The header section */
+.header {
+  padding: 1.5rem;
+  width: 100%;
+  background-image: linear-gradient(to bottom, rgba(16, 66, 91, 1), rgba(10, 12, 34, 1));
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.5em;
+}
+
+.nav-logo i {
+  color: #06B1FF;
+}
+.nav-logo h1 {
+  color: white;
+  font-size: 1.5rem;
+}
+.nav-icon {
+}
+
+.nav-icon i {
+  font-size: 2em;
+  color: #f1f1f1;
+}
+
+
+/* Header text */
+.header__text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.text-head {
+  color: #F1F1F1;
+  font-size: 3rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.text-para {
+  color: #F1F1F1;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+/* Email and.sign up button style */
+#email, #sign-up-btn, .disco__btn {
+  height: 2.5rem;
+  width: 100%;
+  background-color: #848591;
+  border: none;
+  outline: none;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: #F1F1F1;
+}
+#email::placeholder {
+  font-size: 1.5rem;
+  color: #F1F1F1;
+}
+#sign-up-btn {
+  padding-left: 0;
+  background-color: #06B1FF;
+  margin-bottom: 3rem;
+}
+
+/* Header image section style */
+.header__image {
+  width: 100%;
+  height: 40vh;
+  background-image: url(./images/pro_img1.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Header foot styling */
+.header__foot {
+  color: #f1f1f1;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}
+
+.foot {
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+  gap: 0.2rem;
+}
+.foot i {
+  font-size: 2.5em;
+  color: #06B1FF;
+}
+
+.discovery {
+  width: 100%;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.disco__text-head, .disco__text-para {
+  color: black;
+  margin-bottom: 2rem;
+}
+
+.disco__btn {
+  width: 50%;
+  background-color: #06B1FF;
+  padding-left: 0;
+  margin-bottom: 3rem;
+  
+}
+.disco__btn a {
+  color: #F1F1F1;
+  text-decoration: none;
+  
+}
+
+.disco__image {
+  width: 100%;
+  height: 50vh;
+  position: relative;
+  background-image: url(./images/pro_img2.jpeg);
+  background-size: cover;
+  background-position: 50% 5%;
+  background-repeat: no-repeat;
+  margin-bottom: 5rem;
+
+}
+
+.disco__image-small {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  width: 70vw;
+  height: 30vh;
+  background-image: url(./images/pro_img3.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.convenient {
+  width: 100%;
+  height: auto;
+  padding: 2rem 1.5rem;
+  background-color: #0A0C22;
+}
+
+.con__text--head {
+  margin-top: 1rem;
+  color: #F1F1F1;
+}
+
+.con__text--para {
+  color: #F1F1F1;
+}
+
+.con__btn {
+  width: 45%;
+  padding: 1rem 1.5rem;
+  background-color: #06B1FF;
+  border: none;
+  margin: 2rem 0;
+}
+
+.con__btn2 {
+  background-color: #707285;
+}
+
+.con__btn a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.2em;
+}
